@@ -1,0 +1,21 @@
+# Objectives of this project 
+1. Setup and configure a server on DigitalOcean 
+2. Deploy and run a Java Gradle application on Droplet
+3. Create and configure a new Linux user on the Droplet 
+
+1. Setup and configure a server on DigitalOcean
+Pre-Requisite: Create DigitalOcean account
+Configure SSH keys
+Create a Droplet with Linux Ubuntu distribution
+Open SSH port 22 on server using firewall configuration
+SSH into the server using its public IP address
+
+2. Deploy and run a Java Gradle application on Droplet
+Install Java to run Java applications on it
+Create custom firewall on DigitalOcean (port=7071)
+
+3. Create and configure a new Linux user on the Droplet 
+Added User
+Created .ssh folder with ssh key for new User
+Added new User to sudo group
+

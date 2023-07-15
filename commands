@@ -1,0 +1,16 @@
+# Commands Used 
+# Install Java
+apt install open-jdk-8-headless
+
+# Build Jar file 
+gradle build 
+
+# Copy to remote serve(droplet) 
+scp 
+
+# addnew user 
+adduser 
+
+# Created .ssh folder with ssh key for new User
+mkdir .ssh
+sudo vi .ssh/authorized.keys
